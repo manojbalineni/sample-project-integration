@@ -11,4 +11,9 @@ public class SampleController {
     public String sayHello(){
         return "Hello from Integration";
     }
+
+    @GetMapping("/sample")
+    public String saySample(){
+        return "Sample ";
+    }
 }
