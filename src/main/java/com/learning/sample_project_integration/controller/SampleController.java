@@ -19,6 +19,6 @@ public class SampleController {
 
     @GetMapping("/test")
     public String  sayTest(){
-        return "test ";
+        return "test";
     }
 }
