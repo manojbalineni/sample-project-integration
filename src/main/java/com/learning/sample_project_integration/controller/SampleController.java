@@ -16,4 +16,9 @@ public class SampleController {
     public String saySample(){
         return "Sample ";
     }
+
+    @GetMapping("/test")
+    public String  sayTest(){
+        return "test ";
+    }
 }
